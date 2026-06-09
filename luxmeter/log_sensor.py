@@ -2,8 +2,8 @@ import requests
 import time
 import matplotlib.pyplot as plt
 
-URL_SENSOR = "http://192.168.1.6:8080/get?illum"
-URL_STATUS = "http://192.168.1.6:8080/get"
+URL_SENSOR = "http://192.168.1.3:8080/get?illum"
+URL_STATUS = "http://192.168.1.3:8080/get"
 
 x_time = []
 y_lux = []
